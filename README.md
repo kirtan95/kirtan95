@@ -1,10 +1,6 @@
 ### Hola, I'm Kirtan 👋
 
-## I'm a student!
-- 🌴 I’m currently working on Mogento 2 
-- 👀 I’m interested in data analytics
-- 🌱 I’m currently learning everything 🤣
-- 💞️ I’m looking to collaborate other content creators
+
 
 ### Connect with me:
 
