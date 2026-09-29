@@ -19,12 +19,11 @@ I build AI-powered systems end to end — scoping ambiguous problems with stakeh
 - **[rag-knowledge-assistant](https://github.com/kirtan95/rag-knowledge-assistant)** — Production-style RAG Q&A over your documents: FastAPI, pgvector, sentence-transformer embeddings, golden-set eval harness, Docker. `Python`
 - **[finance-tracker](https://github.com/kirtan95/finance-tracker)** — Full-stack personal finance platform: FastAPI + React dashboard, Chart.js visualizations, JWT auth, CSV import. `Python` `React`
 - **[moles-tale](https://github.com/kirtan95/moles-tale)** — Real-time multiplayer word party game for 3–8 players (Node.js + WebSockets). [Play it live](https://moles-tale.onrender.com).
-- **[X-Sentiment-Analyzer](https://github.com/kirtan95/X-Sentiment-Analyzer)** — Flask app that analyzes X/Twitter sentiment with TextBlob and visualizes it with Matplotlib.
 
 ## 💼 Experience
 
-- **Software Engineer** — BISAG (Bhaskaracharya National Institute for Space Applications and Geo-informatics), Gandhinagar — May 2022 – Sep 2022
-- **Data Scientist Intern** — IBM — Jun 2022 – Sep 2022
+- **Software Engineer** — BISAG (Bhaskaracharya National Institute for Space Applications and Geo-informatics), Gandhinagar — Jan 2022 – May 2022
+- **Data Scientist Intern** — IBM — Aug 2022 – Nov 2022
 - **Research Data & Automation Assistant** — Gandhinagar University — Jan 2023 – Mar 2023
 
 ## 🎓 Education
