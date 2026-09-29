@@ -24,7 +24,7 @@ I build AI-powered systems end to end — scoping ambiguous problems with stakeh
 
 - **Software Engineer** — BISAG (Bhaskaracharya National Institute for Space Applications and Geo-informatics), Gandhinagar — Jan 2022 – May 2022
 - **Data Scientist Intern** — IBM — Aug 2022 – Nov 2022
-- **Research Data & Automation Assistant** — Gandhinagar University — Jan 2023 – Mar 2023
+- **Research Data & Automation Assistant** — Ganpat University — Jan 2023 – Mar 2023
 
 ## 🎓 Education
 
