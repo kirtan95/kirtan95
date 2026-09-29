@@ -29,7 +29,7 @@ I build AI-powered systems end to end — scoping ambiguous problems with stakeh
 ## 🎓 Education
 
 - **M.S. Information Systems**, Stevens Institute of Technology, Hoboken, NJ — May 2026 · GPA 3.90/4.0
-- **B.Tech, Computer Science and Engineering**, Gandhinagar University, Ahmedabad, India — May 2022 · GPA 3.86/4.0
+- **B.Tech, Computer Science and Engineering**, Ganpat University, Ahmedabad, India — May 2022 · GPA 3.86/4.0
 
 ## 📫 Contact
 
