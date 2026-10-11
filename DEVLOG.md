@@ -51,3 +51,8 @@ A daily engineering journal — short notes on things I'm learning and building.
 ## 2026-10-10
 
 **Hybrid search: keyword precision plus vector recall, fused with RRF.** In my RAG service (Postgres + pgvector) I kept seeing pure vector search miss exact terms like product codes and error names, while plain full-text search missed paraphrases of the same idea. So I now run both for every query: `to_tsvector`/`tsquery` for keyword matching alongside the HNSW index for semantic recall, then fuse the two rankings with Reciprocal Rank Fusion so neither score scale can dominate. The fusion is just a SQL expression over two ranked subqueries, so it lives entirely in Postgres with no extra service to run. On my golden-question eval, recall improved without touching a single embedding, because the two retrievers fail on different questions. Lesson: hybrid search is not two systems bolted together, it is admitting one signal is never enough.
+
+## 2026-10-11
+
+**Structured LLM output: validate it like any other API response.** I stopped trusting raw model text in a FastAPI endpoint that asks an LLM to extract entities from support tickets and now require JSON mode, then parse the result into a Pydantic model. The model schema doubles as the contract: if the LLM drops a field or emits the wrong type, validation fails and I retry with a correction prompt instead of saving garbage to Postgres. Wrapping the retry in a bounded loop (max 2 retries) keeps costs and latency predictable instead of letting a confused model spin forever. Lesson: treat model output like user input - schema-first, validate-everything.
+
